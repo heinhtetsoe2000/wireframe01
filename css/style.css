@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "KdamThmorPro-Regular";
+  src: url(../font/KdamThmorPro-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: KdamThmorPro-Regular;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+.header-box {
+  width: auto;
+  background-color: brown;
+  padding: 70px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.gap {
+  margin-bottom: 20px;
+}
+
+.nav-box {
+  float: left;
+  background-color: aqua;
+  width: 350px;
+  padding: 150px 20px;
+}
+
+.sec-content {
+  float: right;
+  background-color: blueviolet;
+  width: 900px;
+  padding: 70px 20px 20px 20px;
+}
+
+.art-con1 {
+  float: left;
+  width: 650px;
+  background-color: brown;
+  padding: 194px 20px;
+}
+
+.aside-con1 {
+  float: right;
+  width: 200px;
+  padding: 87px 20px;
+  background-color: brown;
+}
+
+.art-con2 {
+  float: left;
+  width: 650px;
+  background-color: brown;
+  padding: 87px 20px;
+}
